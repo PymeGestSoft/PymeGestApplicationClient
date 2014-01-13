@@ -6,18 +6,16 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 
 
     <!-- BEGIN HEAD -->
-    <head lang="en"> 
+    <head> 
 
-        <!-- Título de la página -->
+        <!-- Page Title -->
         <title>PYMEGEST</title>
 
-        <!-- Metaetiquetas -->
+        <!-- Metas -->
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="" name="PymeGest. Software de gestión para autónomos y pymes." />
         <meta content="" name="PymeGest" />
@@ -25,14 +23,16 @@
         <!-- Librerías Bootstrap -->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap-responsive.min.css" />
-
-        <!-- Controlador fuentes de la página -->
-        <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.css" />
-
+        
         <!-- Hojas de estilos de la página -->
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
         <link rel="stylesheet" type="text/css" href="css/style-default.css" id="style_color" />
+
+        <!-- Controlador fuentes de la página -->
+        <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.css" />
+
+        
         
         <link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css" />
 
