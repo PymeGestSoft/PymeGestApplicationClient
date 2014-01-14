@@ -21,20 +21,19 @@
         <meta content="" name="PymeGest" />
 
         <!-- Librerías Bootstrap -->
-        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap-responsive.css" />
         
         <!-- Hojas de estilos de la página -->
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/style-default.css" id="style_color" />
+        <link rel="stylesheet" type="text/css" href="app/resources/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="app/resources/css/style-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="app/resources/css/style-default.css" id="style_color" />
 
         <!-- Controlador fuentes de la página -->
-        <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.css" />
 
         
-        
-        <link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css" />
+        <link rel="stylesheet" href="plugins/data-tables/DT_bootstrap.css" />
 
     </head>
     <!-- END HEAD -->
@@ -500,28 +499,38 @@
         <!-- BEGIN JAVASCRIPTS -->
 
         <!-- Librería jquery -->
-        <script type="text/javascript" src="lib/jquery/jquery-1.8.3/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="lib/jquery/jquery-1.8.3/jquery-1.8.3.js"></script>
 
         <!-- Librería bootstrap -->
-        <script type="text/javascript" src="lib/bootstrap/bootstrap-2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="lib/bootstrap/bootstrap-2.3.2/js/bootstrap.js"></script>
 
         <!-- Plugins -->
-        <script type="text/javascript" src="assets/jquery-nicescroll/jquery.nicescroll.js"></script>
-        <script type="text/javascript" src="assets/jquery-slimscroll/jquery-ui-1.9.2.custom.min.js"></script>
-        <script type="text/javascript" src="assets/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="plugins/jquery-nicescroll/jquery.nicescroll.js"></script>
+        <script type="text/javascript" src="plugins/jquery-slimscroll/jquery-ui-1.9.2.custom.min.js"></script>
+        <script type="text/javascript" src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
         
         <!--Scripts de todo el sitio-->
-        <script src="js/common-scripts.js"></script>
+        <script src="app/resources/js/common-scripts.js"></script>
 
         <!--Librerías angular-->
         <script type="text/javascript" src="lib/angular/angular-1.2.6/angular.js"></script>
-        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-animate.min.js"></script>
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-animate.js"></script>
         <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-route.js"></script>
-
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-rosources.js"></script>
+        
         <!--Controladores angular-->
-        <script type="text/javascript" src="controllers/app.js"></script>
-        <script type="text/javascript" src="controllers/controllers.js"></script>
-
+        
+        <script type="text/javascript" src="app/app.js"></script>
+    
+        <!-- ClientsModule -->
+        
+        <script type="text/javascript" src="app/modules/ClientModule/ClientModule.js"></script>
+         
+        <!-- ProductModule -->
+        
+        <script type="text/javascript" src="app/modules/ProductModule/ProductModule.js"></script>
+        
         <!-- END JAVASCRIPTS --> 
 
     </body>
