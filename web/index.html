@@ -1,13 +1,28 @@
-<%-- 
-    Document   : index
-    Created on : 23-dic-2013, 22:33:10
-    Author     : Rafa Hernández Novillo
---%>
+<!--Project: PymeGestApplicationServer
+ * Date: 15-ene-2014
+ * Encoding: UTF-8
+ * License: GPL 3.0
+ *
+ * Copyright(c) PymeGest 2013
+ * www.pymegest.com
+ * admin@pymegest.com
+ *
+ * This file is part of Pymegest.
+ * Pymegest is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * Pymegest is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Pymegest. If not, see <http://www.gnu.org/licenses/>. -->
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-
 
     <!-- BEGIN HEAD -->
     <head> 
@@ -20,21 +35,49 @@
         <meta content="" name="PymeGest. Software de gestión para autónomos y pymes." />
         <meta content="" name="PymeGest" />
 
-        <!-- Librerías Bootstrap -->
+        <!-- Bootstrap Libraries -->
+        
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-2.3.2/css/bootstrap-responsive.css" />
         
-        <!-- Hojas de estilos de la página -->
+        <!-- Styles Libraries -->
+        
         <link rel="stylesheet" type="text/css" href="app/resources/css/style.css" />
         <link rel="stylesheet" type="text/css" href="app/resources/css/style-responsive.css" />
         <link rel="stylesheet" type="text/css" href="app/resources/css/style-default.css" id="style_color" />
 
-        <!-- Controlador fuentes de la página -->
+        <!-- Fonts Controllers -->
+        
         <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.css" />
 
+        <!-- Plugins -->
         
         <link rel="stylesheet" href="plugins/data-tables/DT_bootstrap.css" />
-
+        
+        <!-- Angular Libraries  -->
+        
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular.js"></script>
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-animate.js"></script>
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-route.js"></script>
+        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-resource.js"></script>
+        
+        <!-- Main App -->
+        
+        <script type="text/javascript" src="app/app.js"></script>
+    
+        <!-- ClientsModule -->
+        
+        <script type="text/javascript" src="app/modules/ClientModule/ClientModule.js"></script>
+        <script type="text/javascript" src="app/modules/ClientModule/services/ClientRestServices.js"></script>
+        <script type="text/javascript" src="app/modules/ClientModule/controllers/ClientDefaultController.js"></script>
+        
+         
+        <!-- ProductModule -->
+        
+        <script type="text/javascript" src="app/modules/ProductModule/ProductModule.js"></script>
+                
+        <!-- SuppliersModule -->
+        
     </head>
     <!-- END HEAD -->
 
@@ -498,10 +541,10 @@
 
         <!-- BEGIN JAVASCRIPTS -->
 
-        <!-- Librería jquery -->
+        <!-- JQuery  Libraries -->
         <script type="text/javascript" src="lib/jquery/jquery-1.8.3/jquery-1.8.3.js"></script>
 
-        <!-- Librería bootstrap -->
+        <!-- Bootstrap Libraries  -->
         <script type="text/javascript" src="lib/bootstrap/bootstrap-2.3.2/js/bootstrap.js"></script>
 
         <!-- Plugins -->
@@ -510,27 +553,9 @@
         <script type="text/javascript" src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 
         
-        <!--Scripts de todo el sitio-->
+        <!-- General Scripts-->
         <script src="app/resources/js/common-scripts.js"></script>
 
-        <!--Librerías angular-->
-        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular.js"></script>
-        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-animate.js"></script>
-        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-route.js"></script>
-        <script type="text/javascript" src="lib/angular/angular-1.2.6/angular-rosources.js"></script>
-        
-        <!--Controladores angular-->
-        
-        <script type="text/javascript" src="app/app.js"></script>
-    
-        <!-- ClientsModule -->
-        
-        <script type="text/javascript" src="app/modules/ClientModule/ClientModule.js"></script>
-         
-        <!-- ProductModule -->
-        
-        <script type="text/javascript" src="app/modules/ProductModule/ProductModule.js"></script>
-        
         <!-- END JAVASCRIPTS --> 
 
     </body>

@@ -1,8 +1,8 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+angular.module('ClientModule').factory('readClientes', [
+    '$resource',
+    function($resource) {
 
-angular.module('ClientModule').service('ClientService', function(){
-    
-})
+        return $resource('http://localhost:8084/PymegestApplicationServer/api/Usuario', {}, {
+            query: {method: 'GET', isArray: true}
+        });
+    }]);
